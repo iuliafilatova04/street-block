@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Street BLOCK | CSS</title>
+    <style>
+        body {
+            background-color: #223;
+        }
+        .street {
+            border: 1px dotted red;
+            background-image: linear-gradient(rgb(255, 255, 255), rgb(237, 239, 105), rgb(11, 83, 14));
+        }
+        .house {
+            height: 150px;
+            width: 100px;
+
+            display: inline-block;
+        }
+        .building-tall {
+            display: inline-block;
+            height: 300px;
+            width: 100px;
+            
+        }
+        .building-tall-wall {
+            height: 300px;
+            background-color: beige;
+        }
+        .building-tall-door {
+            width: 20px;
+            height: 40px;
+            border: 2px solid black;
+            
+
+            transform: translateX(40px) translateY(255px);
+        }
+        .building-tall-window1 {
+            width: 30px;
+            height: 40px;
+            border: 2px solid gray;
+
+            transform: translateX(5px) translateY(10px);
+        }
+        .building-tall-window2 {
+            width: 30px;
+            height: 40px;
+            border: 2px solid gray;
+
+            transform: translateX(60px) translateY(-34px);
+        }
+        .building-tall-window3 {
+            width: 30px;
+            height: 40px;
+            border: 2px solid gray;
+
+            transform: translateX(5px) translateY(-15px);
+        }
+        .building-tall-window4 {
+            width: 30px;
+            height: 40px;
+            border: 2px solid gray;
+
+            transform: translateX(60px) translateY(-59px);
+        }
+        .building-tall-window5 {
+            width: 30px;
+            height: 40px;
+            border: 2px solid gray;
+
+            transform: translateX(60px) translateY(-40px);
+        }
+        .building-tall-window6 {
+            width: 30px;
+            height: 40px;
+            border: 2px solid gray;
+
+            transform: translateX(5px) translateY(-83px);
+        }
+        .cloud {
+            display: inline-block;
+            width: 50px;
+            vertical-align: top;
+            padding-left: 20px;
+            padding-top: 50px;
+
+        }
+        .cloud-big {
+            display: inline-block;
+            width: 50px;
+            vertical-align: top;
+            padding-top: 60px;
+        }
+        .building-small {
+            display: inline-block;
+            height: 60px;
+            width: 200px;
+            
+        }
+        .building-small-roof {
+            height: 0px;
+            width: 0px;
+            border: 100px solid white;
+            border-top-width: 0px;
+            border-bottom-color: rgb(78, 78, 78);
+            border-left-color: transparent;
+            border-right-color: transparent;
+            border-bottom-width: 20px;
+        }
+        .building-small-wall {
+            height: 40px;
+            background-color: violet;
+        }
+        .building-small-door {
+            height: 10px;
+            width: 5px;
+            border: 2px solid white;
+
+            transform: translateX(95px) translateY(25px);
+        }
+        .building-small-left-window {
+            width: 10px;
+            height: 10px;
+            border: 2px solid rgb(78, 87, 23);
+
+            transform: translateX(50px) translateY(1px) rotate(45deg);
+        }
+        .building-small-right-window {
+            width: 10px;
+            height: 10px;
+            border: 2px solid rgb(78, 87, 23);
+
+            transform: translateX(135px) translateY(-12px) rotate(45deg);
+        }
+        .house-roof {
+            height: 0px;
+            width: 0px;
+            border: 50px solid white;
+            border-top-width: 0px;
+            border-bottom-color: brown;
+            border-left-color: transparent;
+            border-right-color: transparent;
+            border-bottom-width: 70px;
+
+        }
+        .house-wall{
+            background-color: antiquewhite;
+            height: 80px;  
+        }
+        .house-window {
+            width: 30px;
+            height: 30px;
+            border: 2px solid brown;
+
+            transform: translateX(33px) translateY(23px);
+
+        }
+        .trees {
+            display: inline-block;
+            font-size: 70px;
+            vertical-align: 15px;
+            
+        }
+        .cloud-small {
+            display: inline-block;
+            vertical-align: top;
+            padding-top: 70px;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="street">
+        <div class="house">
+            <div class="house-roof"></div>
+            <div class="house-wall">
+                <div class="house-window"></div>
+            </div>
+        </div>
+
+        <div class="building-tall">
+            <div class="building-tall-wall">
+                <div class="building-tall-door"></div>
+                <div class="building-tall-window1"></div>
+                <div class="building-tall-window2"></div>
+                <div class="building-tall-window3"></div>
+                <div class="building-tall-window4"></div>
+                <div class="building-tall-window5"></div>
+                <div class="building-tall-window6"></div>
+            </div>
+
+        </div>
+
+        <div class="cloud">
+            <img src="https://icons.iconarchive.com/icons/flaticonmaker/flat-style/48/cloud-icon.png" />
+        </div>
+        <div class="cloud-big">
+            <img src="https://icons.iconarchive.com/icons/flaticonmaker/flat-style/128/cloud-icon.png" />
+        </div>
+
+        <div class="building-small">
+            <div class="building-small-roof"></div>
+            <div class="building-small-wall">
+                <div class="building-small-door"></div>
+                <div class="building-small-left-window"></div>
+                <div class="building-small-right-window"></div>
+            </div>
+        </div>
+
+        <div class="trees">🌳🌳🌳</div> 
+
+        <div class="cloud-small">
+            <img src="https://icons.iconarchive.com/icons/flaticonmaker/flat-style/48/cloud-icon.png" />
+        </div>
+    </div>
+</body>
+</html>
